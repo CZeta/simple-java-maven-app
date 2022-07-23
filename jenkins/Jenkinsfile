@@ -23,7 +23,7 @@ pipeline {
         }
          stage('RandomTriggerTest') {
             steps {
-               echo "bad jobs"
+               echo "another check"
             }
         }
     }
