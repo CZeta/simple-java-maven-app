@@ -23,7 +23,7 @@ pipeline {
         }
          stage('RandomTriggerTest') {
             steps {
-                sh './jenkins/scripts/deliver.sh'
+               echo "good job"
             }
         }
     }
